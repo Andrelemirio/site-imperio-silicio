@@ -1,243 +1,266 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="scroll-smooth">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Império de Silício Tecnologia | IA Cognitiva para Clínicas</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #060913; color: #f8fafc; }
-        .glow-cyan { box-shadow: 0 0 25px rgba(6, 182, 212, 0.25); }
-        .gradient-text { background: linear-gradient(90deg, #22d3ee, #3b82f6, #fbbf24); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Império de Silício | IA para Clínicas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #020617; color: #f8fafc; }
+    .neon-text { text-shadow: 0 0 10px rgba(6, 182, 212, 0.6); }
+    .glass-panel { background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(6, 182, 212, 0.2); }
+  </style>
 </head>
-<body class="antialiased selection:bg-cyan-500 selection:text-black">
+<body class="antialiased selection:bg-cyan-500 selection:text-white">
 
-    <!-- CABEÇALHO / NAVBAR -->
-    <header class="fixed w-full top-0 z-50 bg-[#060913]/90 backdrop-blur-md border-b border-slate-800">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center font-extrabold text-black text-xl shadow-lg shadow-cyan-500/30">
-                    IS
-                </div>
-                <div>
-                    <span class="font-bold text-lg tracking-wider text-white block leading-none">IMPÉRIO DE SILÍCIO</span>
-                    <span class="text-xs text-cyan-400 tracking-widest uppercase">Tecnologia & IA</span>
-                </div>
-            </div>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-                <a href="#problema" class="hover:text-cyan-400 transition">O Gargalo Clínico</a>
-                <a href="#demonstracao" class="hover:text-cyan-400 transition">Na Prática</a>
-                <a href="#solucao" class="hover:text-cyan-400 transition">Engenharia IA</a>
-                <a href="#faq" class="hover:text-cyan-400 transition">Dúvidas</a>
-            </nav>
-            <a href="https://wa.me/5562983184057?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20a%20IA%20do%20Imp%C3%A9rio%20de%20Sil%C3%ADcio%20para%20minha%20cl%C3%ADnica." target="_blank" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-5 py-2.5 rounded-lg text-sm transition glow-cyan">
-                Falar com Especialista
-            </a>
+  <!-- HEADER / NAVBAR -->
+  <header class="fixed w-full top-0 z-50 glass-panel border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center font-bold text-white text-xl shadow-[0_0_15px_rgba(6,182,212,0.5)]">
+          IS
         </div>
-    </header>
-
-    <!-- DOBRA INICIAL (HERO SECTION) -->
-    <section class="pt-36 pb-16 px-6 relative overflow-hidden">
-        <div class="max-w-5xl mx-auto text-center">
-            <div class="inline-block px-4 py-1.5 rounded-full bg-slate-900 border border-cyan-500/30 text-cyan-400 text-xs font-semibold tracking-wide uppercase mb-6">
-                🚀 Automação de Elite para Clínicas de Estética e Odontologia
-            </div>
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
-                Transforme o WhatsApp da sua clínica em uma máquina de agendamentos <span class="gradient-text">24 horas por dia.</span>
-            </h1>
-            <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
-                Pare de perder pacientes particulares por demora no atendimento. Conheça a <strong class="text-white">Ana</strong>: nossa Agente Cognitiva que ouve áudios, analisa imagens, quebra objeções e crava consultas direto no seu Google Agenda em segundos.
-            </p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="https://wa.me/5562983184057?text=Ol%C3%A1!%20Quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20da%20Agente%20Ana." target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold px-8 py-4 rounded-xl text-lg transition glow-cyan">
-                    Solicitar Demonstração Ao Vivo
-                </a>
-                <a href="#demonstracao" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold px-8 py-4 rounded-xl text-lg transition">
-                    Ver Simulação Real
-                </a>
-            </div>
+        <div class="flex flex-col">
+          <span class="font-bold text-lg leading-tight tracking-wide">IMPÉRIO DE SILÍCIO</span>
+          <span class="text-xs text-cyan-400 tracking-widest font-semibold uppercase">Tecnologia & IA</span>
         </div>
-    </section>
+      </div>
+      <a href="https://wa.me/5562983184057?text=Olá!%20Vim%20pelo%20site%20do%20Império%20de%20Silício%20e%20gostaria%20de%20falar%20com%20um%20especialista." target="_blank" class="hidden md:inline-flex bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-2 rounded-lg transition duration-300">
+        Falar com Especialista
+      </a>
+    </div>
+  </header>
 
-    <!-- BARRA DE TECNOLOGIAS (TECH STACK) -->
-    <section class="py-8 border-y border-slate-800/60 bg-[#080c17]">
-        <div class="max-w-6xl mx-auto px-6">
-            <p class="text-center text-xs uppercase tracking-widest text-slate-500 mb-6 font-semibold">Arquitetura Construída com Tecnologias Globais de Alta Performance</p>
-            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 text-slate-400 font-semibold text-sm">
-                <span class="px-4 py-2 rounded-lg bg-slate-900/80 border border-slate-800">🧠 OpenAI GPT-4o</span>
-                <span class="px-4 py-2 rounded-lg bg-slate-900/80 border border-slate-800">🎙️ Whisper Neural Audio</span>
-                <span class="px-4 py-2 rounded-lg bg-slate-900/80 border border-slate-800">🐍 Python Core</span>
-                <span class="px-4 py-2 rounded-lg bg-slate-900/80 border border-slate-800">🐘 PostgreSQL Database</span>
-                <span class="px-4 py-2 rounded-lg bg-slate-900/80 border border-slate-800">📅 Google Calendar API</span>
-            </div>
+  <!-- HERO SECTION -->
+  <section class="pt-32 pb-16 px-4 relative overflow-hidden">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyan-600/20 rounded-full blur-[120px] -z-10"></div>
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-block border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 tracking-wide uppercase">
+        🚀 Revolucione seu atendimento
+      </div>
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+        Transforme o WhatsApp da sua clínica em uma <span class="text-cyan-400 neon-text">máquina de agendamentos</span> 24h.
+      </h1>
+      <p class="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+        Conheça a Ana: nossa Agente Cognitiva que ouve áudios, interpreta imagens, quebra objeções e agenda consultas direto na sua Google Agenda, enquanto você dorme.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#demonstracao" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl shadow-[0_0_20px_rgba(6,182,212,0.4)] transition duration-300">
+          Ver a Ana funcionando
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGIAS (LOGOS SIMULADOS) -->
+  <section class="py-8 border-y border-slate-800 bg-slate-900/50">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-xs text-slate-500 uppercase tracking-widest font-semibold mb-4">Arquitetura de Alta Performance</p>
+      <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition duration-500">
+        <div class="flex items-center gap-2"><span class="text-xl font-bold">GPT-4o</span></div>
+        <div class="flex items-center gap-2"><span class="text-xl font-bold">Python</span></div>
+        <div class="flex items-center gap-2"><span class="text-xl font-bold">PostgreSQL</span></div>
+        <div class="flex items-center gap-2"><span class="text-xl font-bold">Google API</span></div>
+        <div class="flex items-center gap-2"><span class="text-xl font-bold">Z-API</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE ELA FAZ -->
+  <section class="py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Arquitetura Cognitiva de Alta Precisão</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">A Ana não é um chatbot de "digite 1". Ela entende contexto humano, empatia e negociação.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        
+        <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+          <div class="text-4xl mb-4">🎧</div>
+          <h3 class="text-xl font-bold text-cyan-400 mb-3">Audição e Visão Computacional</h3>
+          <p class="text-slate-300">O paciente mandou um áudio de 2 minutos no trânsito ou a foto de um procedimento? A Ana ouve, interpreta a imagem e responde com total contexto em segundos.</p>
         </div>
-    </section>
 
-    <!-- O PROBLEMA (A FERIDA DO MÉDICO) -->
-    <section id="problema" class="py-20 px-6 bg-[#0a0f1d] border-b border-slate-800/80">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Por que sua clínica perde dinheiro todos os dias no WhatsApp?</h2>
-                <p class="text-slate-400 max-w-2xl mx-auto">Você investe pesado em tráfego pago e estrutura, mas o paciente esfria na fila de espera da recepção.</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-[#060913] p-8 rounded-2xl border border-red-500/20">
-                    <div class="text-red-400 text-2xl mb-4">⏱️</div>
-                    <h3 class="text-xl font-bold mb-2">Demora Fatal</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Pacientes de estética e odontologia compram por impulso. Se sua recepção demora 2 horas para responder, ele já agendou no concorrente.</p>
-                </div>
-                <div class="bg-[#060913] p-8 rounded-2xl border border-red-500/20">
-                    <div class="text-red-400 text-2xl mb-4">🌙</div>
-                    <h3 class="text-xl font-bold mb-2">Portas Fechadas à Noite</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Mais de 40% das buscas por procedimentos acontecem após às 19h e aos finais de semana, quando sua equipe não está trabalhando.</p>
-                </div>
-                <div class="bg-[#060913] p-8 rounded-2xl border border-red-500/20">
-                    <div class="text-red-400 text-2xl mb-4">🤖</div>
-                    <h3 class="text-xl font-bold mb-2">Robôs Engessados Irritam</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Chatbots antigos de "Digite 1 ou 2" afastam pacientes de alto padrão que enviam áudios longos e exigem atendimento humanizado.</p>
-                </div>
-            </div>
+        <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+          <div class="text-4xl mb-4">📅</div>
+          <h3 class="text-xl font-bold text-cyan-400 mb-3">Prevenção ativa contra conflitos de horário</h3>
+          <p class="text-slate-300">O sistema consulta a disponibilidade da sua clínica em tempo real, filtra curiosos validando o CPF do paciente e registra o compromisso direto na sua agenda.</p>
         </div>
-    </section>
 
-    <!-- SIMULAÇÃO REAL DE ATENDIMENTO -->
-    <section id="demonstracao" class="py-24 px-6">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <span class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">Atendimento Humanizado em Segundos</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">Veja como a Ana conduz o paciente até o agendamento confirmado</h2>
-                <p class="text-slate-400 mb-6 leading-relaxed">
-                    Enquanto um chatbot comum trava quando o paciente faz duas perguntas ao mesmo tempo ou envia um áudio, a <strong class="text-white">Ana</strong> utiliza escuta ativa para acolher, tirar dúvidas e avançar o funil comercial sem parecer um robô.
-                </p>
-                <ul class="space-y-4 text-sm text-slate-300">
-                    <li class="flex items-center space-x-3">
-                        <span class="text-cyan-400 font-bold">✓</span>
-                        <span>Transcreve áudios longos instantaneamente.</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <span class="text-cyan-400 font-bold">✓</span>
-                        <span>Responde dúvidas sobre estacionamento, endereço e procedimentos.</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <span class="text-cyan-400 font-bold">✓</span>
-                        <span>Valida os 11 dígitos do CPF antes de trancar a vaga na agenda.</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- MOCKUP DO WHATSAPP -->
-            <div class="bg-[#0b141a] rounded-3xl border border-slate-800 p-6 shadow-2xl">
-                <div class="flex items-center space-x-3 pb-4 mb-4 border-b border-slate-800">
-                    <div class="w-10 h-10 rounded-full bg-emerald-600 flex items-center justify-center font-bold text-white">A</div>
-                    <div>
-                        <p class="font-bold text-sm text-white">Ana | Assistente Virtual da Clínica</p>
-                        <p class="text-xs text-emerald-400">● Online agora</p>
-                    </div>
-                </div>
-                <div class="space-y-4 text-sm">
-                    <div class="bg-[#202c33] text-slate-200 p-3.5 rounded-2xl rounded-tl-none max-w-[85%]">
-                        🎤 <em>[Áudio de 0:42]: "Oi, queria saber de implante e clareamento. Eu tenho muito medo de doer... vocês têm estacionamento aí? Tem vaga pra quinta?"</em>
-                    </div>
-                    <div class="bg-[#005c4b] text-white p-3.5 rounded-2xl rounded-tr-none max-w-[90%] ml-auto">
-                        Olá! Sou a Ana 😊 Fique totalmente tranquila quanto ao implante e ao clareamento: utilizamos tecnologia e anestésicos de ponta para seu conforto absoluto, sem dor! Sim, temos estacionamento próprio no local. Para quinta-feira tenho vaga às <strong>14:00</strong> ou às <strong>16:30</strong>. Qual fica melhor para você?
-                    </div>
-                    <div class="bg-[#202c33] text-slate-200 p-3.5 rounded-2xl rounded-tl-none max-w-[75%]">
-                        Nossa, que rápido! Pode ser quinta às 14h então. Meu nome é Mariana Silva.
-                    </div>
-                    <div class="bg-[#005c4b] text-white p-3.5 rounded-2xl rounded-tr-none max-w-[90%] ml-auto">
-                        Perfeito, Mariana! Para eu confirmar e reservar exclusivamente seu horário de quinta-feira às 14:00 na agenda do Doutor, poderia me informar apenas os 11 dígitos do seu CPF?
-                    </div>
-                </div>
-            </div>
+        <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+          <div class="text-4xl mb-4">🚨</div>
+          <h3 class="text-xl font-bold text-cyan-400 mb-3">Protocolo de Transbordo Humano</h3>
+          <p class="text-slate-300">Se o paciente exigir falar com um humano ou se o caso for uma emergência médica complexa, a Ana alerta sua recepção e transfere o atendimento elegantemente.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- A SOLUÇÃO (A ARMA: AGENTE ANA) -->
-    <section id="solucao" class="py-24 px-6 bg-[#0a0f1d] border-y border-slate-800/80">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <span class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">Engenharia Cognitiva Avançada</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">O que torna a nossa Inteligência Artificial imbatível?</h2>
-                <p class="text-slate-400 max-w-2xl mx-auto">Desenvolvida em arquitetura Python de alta performance, nossa agente opera como a sua melhor secretária executiva.</p>
-            </div>
+  <!-- DEMONSTRAÇÃO VISUAL -->
+  <section id="demonstracao" class="py-20 px-4 bg-slate-900 border-y border-slate-800">
+    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+      
+      <div>
+        <span class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">Demonstração Prática</span>
+        <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">Veja como a Ana fecha um agendamento.</h2>
+        <p class="text-slate-300 mb-6 leading-relaxed">
+          Grande parte das buscas por procedimentos e agendamentos acontece após as 19h, no almoço ou nos finais de semana, quando a sua clínica está fechada. Veja como a nossa Inteligência Artificial garante que esse paciente não procure o concorrente.
+        </p>
+        <ul class="space-y-4 mb-8">
+          <li class="flex items-start gap-3"><span class="text-cyan-400">✓</span> <span>Acolhimento e quebra de objeção instantânea.</span></li>
+          <li class="flex items-start gap-3"><span class="text-cyan-400">✓</span> <span>Pré-cadastro automático com validação.</span></li>
+          <li class="flex items-start gap-3"><span class="text-cyan-400">✓</span> <span>Confirmação direto no Google Agenda.</span></li>
+        </ul>
+      </div>
 
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-slate-900/60 p-8 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition">
-                    <h3 class="text-xl font-bold text-cyan-400 mb-3">🎧 Audição e Visão Computacional</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed">O paciente mandou um áudio de 2 minutos no trânsito ou a foto de um dente/procedimento? A Ana ouve, interpreta a imagem e responde com total contexto humano em segundos.</p>
-                </div>
-                <div class="bg-slate-900/60 p-8 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition">
-                    <h3 class="text-xl font-bold text-cyan-400 mb-3">📅 Sincronização Real com Google Agenda</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed">Zero risco de agendamentos duplicados. O sistema varre os horários livres da sua clínica em tempo real, valida o CPF do paciente e crava o compromisso direto na sua agenda.</p>
-                </div>
-                <div id="seguranca" class="bg-slate-900/60 p-8 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition">
-                    <h3 class="text-xl font-bold text-amber-400 mb-3">🚨 Protocolo Médico de Transbordo (Botão de Pânico)</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed">Segurança clínica em primeiro lugar. Se o paciente relatar dor aguda, sangramento ou urgência pós-cirúrgica, a IA silencia o funil automático na hora e dispara um alarme imediato no celular da sua coordenadora humana.</p>
-                </div>
-                <div class="bg-slate-900/60 p-8 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition">
-                    <h3 class="text-xl font-bold text-cyan-400 mb-3">🛡️ Memória Blindada em Banco de Dados</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed">Estruturada com banco de dados PostgreSQL dedicado. Nossa agente não sofre de amnésia, não repete perguntas já respondidas e conduz o paciente com firmeza e empatia até a confirmação.</p>
-                </div>
-            </div>
+      <!-- SIMULADOR DE CHAT -->
+      <div class="bg-slate-950 rounded-3xl border-8 border-slate-800 overflow-hidden shadow-2xl h-[500px] flex flex-col relative">
+        <div class="bg-slate-800 py-3 px-4 flex items-center gap-3 border-b border-slate-700">
+          <div class="w-10 h-10 rounded-full bg-cyan-500 flex justify-center items-center font-bold">A</div>
+          <div>
+            <div class="font-bold text-sm">Ana (Assistente Virtual)</div>
+            <div class="text-xs text-green-400">Online</div>
+          </div>
         </div>
-    </section>
-
-    <!-- PERGUNTAS FREQUENTES (FAQ) -->
-    <section id="faq" class="py-24 px-6">
-        <div class="max-w-4xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Perguntas Frequentes de Gestores e Médicos</h2>
-                <p class="text-slate-400">Transparência total sobre a operação da nossa tecnologia na sua clínica.</p>
+        
+        <div class="flex-1 p-4 overflow-y-auto space-y-4 bg-[#0B141A]">
+          <!-- Msg Paciente -->
+          <div class="flex justify-end">
+            <div class="bg-[#005C4B] text-white p-3 rounded-l-xl rounded-br-xl max-w-[85%] text-sm">
+              Boa noite. Vocês fazem lente de contato dental? Eu tenho medo de ficar artificial, e só tenho tempo na sexta-feira à tarde.
             </div>
-            <div class="space-y-6">
-                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
-                    <h3 class="font-bold text-lg text-white mb-2">1. Minha secretária humana ainda poderá usar o mesmo WhatsApp?</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Sim! A Ana trabalha em perfeita harmonia com a sua recepção. Quando um caso exige atendimento humano ou o botão de pânico é acionado, a IA se silencia para aquele paciente específico e avisa sua secretária para assumir a conversa normalmente.</p>
-                </div>
-                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
-                    <h3 class="font-bold text-lg text-white mb-2">2. Como a IA sabe diferenciar medo do paciente de uma emergência médica real?</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Nosso motor cognitivo analisa o contexto da frase. Se o paciente diz "tenho medo de sentir dor", ela entende como objeção comercial, acalma o paciente e segue o agendamento. Se ele diz "meu curativo abriu e está sangrando", ela trava o agendamento na hora e aciona a equipe humana.</p>
-                </div>
-                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
-                    <h3 class="font-bold text-lg text-white mb-2">3. Quanto tempo demora para personalizar e instalar na minha clínica?</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Nossa equipe configura as regras específicas da sua clínica, procedimentos, endereço e integração com a sua agenda do Google de forma ágil, sem interromper o atendimento atual do seu consultório.</p>
-                </div>
+          </div>
+          <!-- Msg Ana -->
+          <div class="flex justify-start">
+            <div class="bg-[#202C33] text-white p-3 rounded-r-xl rounded-bl-xl max-w-[85%] text-sm">
+              Olá! Boa noite. Sim, nós somos especialistas em Lentes de Contato Dental. Pode ficar tranquilo(a), nosso protocolo é focado em resultados extremamente naturais e harmônicos. 😊<br><br>Para sexta-feira à tarde, eu tenho horários livres às 14h00 e às 16h30. Qual fica melhor para você?
             </div>
+          </div>
+           <!-- Msg Paciente -->
+           <div class="flex justify-end">
+            <div class="bg-[#005C4B] text-white p-3 rounded-l-xl rounded-br-xl max-w-[85%] text-sm">
+              As 16h30 fica ótimo.
+            </div>
+          </div>
+           <!-- Msg Ana -->
+           <div class="flex justify-start">
+            <div class="bg-[#202C33] text-white p-3 rounded-r-xl rounded-bl-xl max-w-[85%] text-sm">
+              Perfeito! Para eu reservar esse horário exclusivo para você na agenda do Doutor, por favor, digite seu nome completo e seu CPF.
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- CHAMADA FINAL PARA AÇÃO -->
-    <section class="py-20 px-6 bg-gradient-to-b from-[#060913] to-[#0a1526] border-t border-slate-800/80 text-center">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Pronto para blindar o atendimento da sua clínica?</h2>
-            <p class="text-slate-400 mb-8 text-lg">Agende uma demonstração rápida no seu próprio celular e veja a Ana responder como a sua melhor funcionária.</p>
-            <a href="https://wa.me/5562983184057?text=Ol%C3%A1!%20Quero%20testar%20a%20Agente%20Cognitiva%20Ana%20na%20minha%20cl%C3%ADnica." target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-extrabold px-10 py-4 rounded-xl text-lg transition glow-cyan">
-                Falar com Diretor Comercial no WhatsApp
-            </a>
+  <!-- BLOCO ESTRATÉGICO: TESTE AO VIVO PÓS-DEMONSTRAÇÃO -->
+  <section class="py-10 px-4 bg-gradient-to-b from-slate-900 to-slate-950 border-y border-cyan-500/20">
+    <div class="max-w-4xl mx-auto text-center bg-slate-900/90 border border-cyan-500/30 rounded-2xl p-8 shadow-2xl">
+      <span class="inline-block py-1 px-3 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-400 text-xs font-semibold uppercase tracking-wider mb-3">
+        Prova Real em Tempo Real
+      </span>
+      <h3 class="text-2xl md:text-3xl font-bold text-white mb-3">
+        Experimente a Ana no seu próprio WhatsApp
+      </h3>
+      <p class="text-slate-300 text-base md:text-lg max-w-2xl mx-auto mb-6">
+        Não acredite apenas no que estamos dizendo. Veja na prática como a nossa engenharia cognitiva ouve áudios, contorna objeções e conduz o paciente até o agendamento.
+      </p>
+      <a href="https://wa.me/5562983184057?text=Ol%C3%A1!%20Vi%20a%20demonstra%C3%A7%C3%A3o%20no%20site%20do%20Imp%C3%A9rio%20de%20Sil%C3%ADcio%20e%20quero%20testar%20a%20Agente%20Ana%20funcionando%20na%20pr%C3%A1tica." 
+         target="_blank"
+         class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl shadow-[0_0_15px_rgba(16,185,129,0.4)] transition duration-300">
+        <span>💬</span> TESTAR A ANA AGORA NO WHATSAPP
+      </a>
+      <p class="text-xs text-slate-400 mt-4">
+        ⚡ Ambiente de demonstração imediata • Sem compromisso
+      </p>
+    </div>
+  </section>
+
+  <!-- SEÇÃO: IMPLANTAÇÃO CHAVE NA MÃO (DIFERENCIAL COMPETITIVO) -->
+  <section class="py-16 px-4 bg-slate-950 text-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">
+          Engenharia Sob Medida • Zero Trabalho para Você
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">
+          Não entregamos um robô genérico.<br class="hidden md:inline" />
+          <span class="text-cyan-400">Construímos a Ana para a realidade da sua clínica.</span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl mx-auto text-base md:text-lg">
+          Diferente de plataformas comuns onde você precisa programar fluxos engessados sozinho, nossa equipe entrega a operação 100% pronta, treinada e integrada.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Passo 1 -->
+        <div class="bg-slate-900/80 border border-slate-800 hover:border-cyan-500/40 rounded-xl p-6 transition">
+          <div class="text-cyan-400 font-bold text-sm mb-2">ETAPA 01</div>
+          <h3 class="text-xl font-bold text-white mb-2">Diagnóstico Clínico</h3>
+          <p class="text-slate-400 text-sm">
+            Mapeamos seus procedimentos, valores, convênios, regras de triagem e as dúvidas mais frequentes dos seus pacientes.
+          </p>
         </div>
-    </section>
 
-    <!-- RODAPÉ OFICIAL (ESCUDO JURÍDICO) -->
-    <footer class="bg-[#03050a] border-t border-slate-900 py-12 px-6 text-center text-slate-500 text-sm">
-        <div class="max-w-4xl mx-auto space-y-4">
-            <p class="font-bold text-slate-300 text-base">IMPÉRIO DE SILÍCIO TECNOLOGIA</p>
-            <p>Soluções em Inteligência Artificial, Desenvolvimento de Software e Automação Cognitiva.</p>
-            <p class="text-xs text-slate-600 font-mono">
-                RAZÃO SOCIAL: ANDRE FERREIRA LEMIRIO LTDA | CNPJ: 69.580.331/0001-44
-            </p>
-            <p class="text-xs text-slate-700 pt-4">
-                © 2026 Império de Silício Tecnologia. Todos os direitos reservados.
-            </p>
+        <!-- Passo 2 -->
+        <div class="bg-slate-900/80 border border-slate-800 hover:border-cyan-500/40 rounded-xl p-6 transition">
+          <div class="text-cyan-400 font-bold text-sm mb-2">ETAPA 02</div>
+          <h3 class="text-xl font-bold text-white mb-2">Personalização & Tom</h3>
+          <p class="text-slate-400 text-sm">
+            Calibramos a comunicação da Ana para refletir a postura ética, acolhedora e comercial da sua clínica, sem parecer um robô.
+          </p>
         </div>
-    </footer>
 
-    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
-    <a href="https://wa.me/5562983184057?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Imp%C3%A9rio%20de%20Sil%C3%ADcio%20e%20quero%20saber%20mais." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-5 py-3.5 rounded-full shadow-2xl flex items-center space-x-2 transition transform hover:scale-105">
-        <span>💬</span>
-        <span class="text-sm">Testar IA no WhatsApp</span>
-    </a>
+        <!-- Passo 3 -->
+        <div class="bg-slate-900/80 border border-slate-800 hover:border-cyan-500/40 rounded-xl p-6 transition">
+          <div class="text-cyan-400 font-bold text-sm mb-2">ETAPA 03</div>
+          <h3 class="text-xl font-bold text-white mb-2">Integração & Testes</h3>
+          <p class="text-slate-400 text-sm">
+            Conectamos a Ana ao seu WhatsApp, ao Google Agenda e configuramos o Protocolo de Transbordo Humano para sua recepção.
+          </p>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="bg-slate-900/80 border border-slate-800 hover:border-cyan-500/40 rounded-xl p-6 transition">
+          <div class="text-cyan-400 font-bold text-sm mb-2">ETAPA 04</div>
+          <h3 class="text-xl font-bold text-white mb-2">Acompanhamento Ativo</h3>
+          <p class="text-slate-400 text-sm">
+            Monitoramos os primeiros atendimentos reais de perto e ajustamos o cérebro da agente para maximizar suas conversões.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL (INVESTIMENTO) -->
+  <section class="py-20 px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold mb-6">Pronto para dominar sua agenda?</h2>
+      <p class="text-slate-400 mb-8 text-lg">Deixe o Império de Silício automatizar seu atendimento e pare de perder pacientes para a concorrência.</p>
+      
+      <div class="glass-panel p-8 rounded-2xl mb-8 border border-cyan-500/50">
+        <div class="inline-block bg-orange-500/20 text-orange-400 border border-orange-500/30 px-4 py-1.5 rounded-full text-xs font-bold mb-4 uppercase tracking-wider">
+          🔥 CONDIÇÃO ESPECIAL: Programa Clínicas Fundadoras
+        </div>
+        <p class="text-slate-300 text-sm mb-4">3 Vagas com Implantação Personalizada Inclusa. Consulte condições para parceiros pioneiros.</p>
+        <div class="text-5xl font-bold text-white mb-2">R$ 1.297<span class="text-xl text-slate-400 font-normal">/mês</span></div>
+        <p class="text-cyan-400 font-semibold mb-6">Setup de Integração + Agente Ana Inclusa</p>
+        <a href="https://wa.me/5562983184057?text=Olá!%20Vim%20pelo%20site%20do%20Império%20de%20Silício%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20implantação%20da%20Agente%20Ana%20na%20minha%20clínica." target="_blank" class="block w-full bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-lg py-4 rounded-xl transition duration-300 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+          Falar com Diretor Comercial no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER COM CNPJ -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="mb-2 font-bold text-slate-400">IMPÉRIO DE SILÍCIO TECNOLOGIA & IA</div>
+      <div class="mb-4">ANDRE FERREIRA LEMIRIO LTDA | CNPJ: 69.580.331/0001-44</div>
+      <p>&copy; 2026 Império de Silício. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
